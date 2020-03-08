@@ -29,7 +29,7 @@ WORKDIR /usr/src/app/FaceD
 COPY . .
 
 # Execute Server.go in starting container 
-CMD ["go","run","FaceD_Server.go"]
+CMD ["go","run","Server.go"]
 
 # Inform Docker that the container is listening on the specified port at runtime.
 EXPOSE 8080
